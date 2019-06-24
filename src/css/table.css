@@ -1,0 +1,27 @@
+.table tr:not(:first-child){
+    cursor: pointer;transition: all .25s ease-in-out;
+}
+
+.table tr:not(:first-child):hover{
+    background-color: #ddd;
+}
+
+.tableSelected {
+  border-style: solid;
+  border-color: lightblue;
+  font-weight:bold;
+}
+
+table #t01{
+  background-color: rgb(49, 137, 172);
+  color: white;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.tableWidth{
+  width: '100%';
+}
